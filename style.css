@@ -57,4 +57,11 @@ hr
   height: 1px;
   margin-left: auto;
   margin-right: auto; 
-  background-color: black;}
+  background-color: black;
+}
+.sections
+{
+    padding: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
