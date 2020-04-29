@@ -1,0 +1,60 @@
+body
+{
+  background-color: wheat;
+}
+header 
+{ 
+  height: 50px;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: 600;
+}
+.menu
+{
+  float: right;
+}
+nav li
+{
+  display: inline;
+}
+nav li a 
+{
+  color: wheat;
+  padding-right: 50px;
+  font-size: 20;
+  text-decoration: none;
+}
+nav li a:hover
+{
+  color: peru;
+}
+nav li a:focus
+{
+  color: peru;
+  text-decoration: underline;
+}
+nav li a:active
+{
+  color: black;
+  text-decoration: underline;
+}
+.myphoto
+{
+   text-align: center;
+   padding-top: 100px;
+}
+.myimage
+{
+  width: 300px;
+  border-radius: 50%;
+}
+hr 
+{
+  width: 25%;
+  border: 0 none;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: black;}
