@@ -11,7 +11,7 @@ header
   z-index: 1;
   top: 0;
   width: 100%;
-  font-weight: 600;
+  font-weight: 700;
 }
 .menu
 {
@@ -20,24 +20,22 @@ header
 }
 header li
 {
-  display: inline;
-  
+  display: inline-block; 
 }
 header li a 
 {
   color: wheat;
   padding-right: 50px;
-  font-size: 20;
-  text-decoration: none;
+  
 }
 header li a:hover
 {
   color: peru;
+  text-decoration: none;
 }
 header li a:active
 {
   color: black;
-  text-decoration: underline;
 }
 .myphoto
 {
@@ -70,7 +68,6 @@ hr
     margin: 20px 0;
     text-align: center;
 }
-
 .container
 {
   max-width: 1200px;
@@ -78,15 +75,15 @@ hr
   justify-content: space-around;
   position: relative;
 }
-.card{
+.card
+{
   background: black;
-  
 }
 .row
 {
   justify-content: center;
   color: wheat;
-  padding-top:20px;
+  padding-top:10px;
 }
 .card-block
 {
@@ -103,32 +100,24 @@ hr
 {
   background: wheat;
 }
-.btn
-{
-  text-align: center;
-}
 footer
 {
-  
   line-height: 1.85;
   background-color: black;
   width: 100%;
   float: right;
   text-align: center; 
   padding-top: 10px;
-  position: relative;
-  
+  position: relative; 
 }
 .footer li
 {
   display: inline; 
-  
 }
 .footer li a
 {
   color: wheat;
   padding:20px;
-  text-decoration: none;
-   
+  text-decoration: none;  
 }
 
