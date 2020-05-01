@@ -115,7 +115,9 @@ footer
   width: 100%;
   float: right;
   text-align: center; 
-  padding-top: 5px;
+  padding-top: 10px;
+  position: relative;
+  
 }
 .footer li
 {
