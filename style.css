@@ -92,3 +92,18 @@ h2{text-align: center;}
 {
   padding:10px; 
 }
+.col-sm-4
+{
+  background: black;
+  color: wheat;
+  padding:20px;
+}
+.form-control
+{
+  background: wheat;
+}
+.btn
+{
+  text-align: center;
+ 
+}
