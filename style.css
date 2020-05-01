@@ -18,28 +18,28 @@ header
   float: right;
   padding-top: 10px;
 }
-nav li
+.header li
 {
   display: inline;
   
 }
-nav li a 
+.header li a 
 {
   color: wheat;
   padding-right: 50px;
   font-size: 20;
   text-decoration: none;
 }
-nav li a:hover
+.header li a:hover
 {
   color: peru;
 }
-nav li a:focus
+.header li a:focus
 {
   color: peru;
   text-decoration: underline;
 }
-nav li a:active
+.header li a:active
 {
   color: black;
   text-decoration: underline;
@@ -57,20 +57,21 @@ nav li a:active
 }
 hr 
 {
-  width: 30%;
+  width: 25%;
   border: 0 none;
   height: 1px;
   margin-left: auto;
   margin-right: auto; 
   background-color: black;
 }
+
 .sections
 {
     padding: 70px;
     margin: 20px 0;
     text-align: center;
 }
-h2{text-align: center;}
+
 .container
 {
   max-width: 1200px;
@@ -113,14 +114,19 @@ footer
   background-color: black;
   width: 100%;
   float: right;
-  text-align: center;
+  text-align: center; 
+  padding-top: 5px;
+}
+.footer li
+{
+  display: inline; 
   
 }
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 50px;
-  
+.footer li a
+{
+  color: wheat;
+  padding:20px;
   text-decoration: none;
-  
+   
 }
+
