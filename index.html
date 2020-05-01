@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -14,7 +19,7 @@
               <li><a  href="#top">Home</a></li>
               <li><a  href="#about">About</a></li>
               <li><a  href="#projects">Projects</a></li>
-              <li><a  href="#">Contact</a></li>
+              <li><a  href="#contact">Contact</a></li>
             </ul>
           </nav>  
       </header>
@@ -30,6 +35,44 @@
         <p>  My curiosity for coding and emerging technologies has led me to grow my career in software development.</p>
         <p> Challenges fuel me and I give my best effort to what I love to do whether that be my school work, my job, or my hobbies.</p>
       </section>
+      <section id="projects" class="sections">
+          <h2>My Projects</h2>
+          <div class="container">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="database3.png" alt="project1pic">
+                  <div class="card-block">
+                    <h4 class="card-title">SQL Database Management</h4>
+                    <p>Populated New York City Airbnb’s raw data into PostgreSQL to easily find an Airbnb in NYC. Designed SQL queries to analyze all needed information to find out more about hosts, locations, availability, necessary metrics to make predictions and draw conclusions.
+                      </p>
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="stockprediction.png" alt="project2pic">
+                  <div class="card-block">
+                    <h4 class="card-title">Stock Prediction</h4>
+                    <p>Developed Multi-layer Perceptron classifier to predict the next 30 days stock value in Python and tested on historic dataset of Google.</p>
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="battlecode2.png" alt="project3pic">
+                  <div class="card-block">
+                    <h4 class="card-title">MIT BAttlecode</h4>
+                    <p>Battlecode is a real-time strategy game, where your program plays against an AI player. This involved
+                       various concepts like path finding algorithms, network communication, etc.
+                    </p>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      
+      
       
       
   </body>
