@@ -105,5 +105,22 @@ h2{text-align: center;}
 .btn
 {
   text-align: center;
- 
+}
+footer
+{
+  
+  line-height: 1.85;
+  background-color: black;
+  width: 100%;
+  float: right;
+  text-align: center;
+  
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  
+  text-decoration: none;
+  
 }
