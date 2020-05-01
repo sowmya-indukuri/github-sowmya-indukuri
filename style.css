@@ -1,123 +1,100 @@
-body
-{
+body {
   background-color: wheat;
 }
-header 
-{ 
-  /* height: 50px; */
+header {
   line-height: 2;
-  background-color:black;
+  background-color: black;
   position: fixed;
   z-index: 1;
   top: 0;
   width: 100%;
   font-weight: 700;
 }
-.menu
-{
+.menu {
   float: right;
   padding-top: 10px;
 }
-header li
-{
-  display: inline-block; 
+header li {
+  display: inline-block;
 }
-header li a 
-{
+header li a {
   color: wheat;
   padding-right: 50px;
-  
 }
-header li a:hover
-{
+header li a:hover {
   color: peru;
   text-decoration: none;
 }
-header li a:active
-{
+header li a:active {
   color: black;
 }
-.myphoto
-{
-   text-align: center;
-   padding-top: 120px;
-   padding-bottom: 70px;
+.myphoto {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 70px;
 }
-.myimage
-{
+.myimage {
   width: 300px;
   border-radius: 50%;
 }
-hr 
-{
+hr {
   width: 25%;
   border: 0 none;
   height: 1px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   background-color: black;
 }
-@media (max-width:768px){
-  hr{
-    width:60%;
+@media (max-width: 768px) {
+  hr {
+    width: 60%;
   }
 }
-.sections
-{
-    padding-top: 70px;
-    margin: 20px 0;
-    text-align: center;
+.sections {
+  padding-top: 70px;
+  margin: 20px 0;
+  text-align: center;
 }
-.container
-{
+.container {
   max-width: 1200px;
   display: flex;
   justify-content: space-around;
   position: relative;
 }
-.card
-{
+.card {
   background: black;
 }
-.row
-{
+.row {
   justify-content: center;
   color: wheat;
-  padding-top:10px;
+  padding-top: 10px;
 }
-.card-block
-{
-  padding:10px; 
+.card-block {
+  padding: 10px;
 }
-.col-sm-4
-{
+.col-sm-4 {
   background: black;
   color: wheat;
-  padding:20px;
+  padding: 20px;
   width: 100%;
 }
-.form-control
-{
+.form-control {
   background: wheat;
 }
-footer
-{
+footer {
   line-height: 1.85;
   background-color: black;
   width: 100%;
   float: right;
-  text-align: center; 
+  text-align: center;
   padding-top: 10px;
-  position: relative; 
+  position: relative;
 }
-.footer li
-{
-  display: inline; 
+.footer li {
+  display: inline;
 }
-.footer li a
-{
+.footer li a {
   color: wheat;
-  padding:20px;
-  text-decoration: none;  
+  padding: 20px;
+  text-decoration: none;
 }
-
