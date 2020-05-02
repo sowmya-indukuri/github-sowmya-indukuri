@@ -67,7 +67,7 @@ hr {
 .row {
   justify-content: center;
   color: wheat;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 .card-block {
   padding: 10px;
